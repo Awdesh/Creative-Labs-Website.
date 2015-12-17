@@ -14,11 +14,6 @@ gulp.task('browser-sync', function() {
     gulp.watch("*.html").on("change, browserSync.reload");
 });
 
-gulp.task('default', function() {
-  // place code for your default task here
-  console.log('hello');
-});
-
 gulp.task('styles', function() {
   // place code for your default task here
   gulp.src('sass/**/*.scss')
